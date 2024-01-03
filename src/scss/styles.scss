@@ -1,0 +1,44 @@
+//
+// Styles
+//
+
+// Import variables
+@import "./variables";
+
+// Import Bootstrap
+@import "../../dist/bootstrap/scss/bootstrap.scss";
+
+// Global CSS
+@import "./global";
+
+// Components
+@import "./components/buttons";
+@import "./components/navbar";
+
+// Sections
+@import "./sections/masthead";
+@import "./sections/portfolio";
+@import "./sections/services";
+@import "./sections/about";
+@import "./sections/contact";
+@import "./sections/footer";
+
+// Bubbles
+@import "./bubbles";
+
+::-webkit-scrollbar{
+    background-color: white;
+    width: 3px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: darkmagenta;
+    width: 100%;
+  }
+
+  .yb-primary{
+    color: #c341ab;
+  }
+  
+  .yb-secondary{
+    color: green !important;
+  }

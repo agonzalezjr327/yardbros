@@ -1,0 +1,33 @@
+//
+// Colors
+//
+
+
+// Override Bootstrap color variables
+
+// Project theme colors
+$primary: #c341ab;
+$secondary: green;
+// $success: turquoise;
+// $info: aquamarine;
+// $warning: rgb(190, 231, 41);
+// $danger: red;
+// $dark: rgb(17, 122, 220);
+// $light: lightblue;
+
+
+// Map our project theme colors into Bootstrap
+// $theme-colors: (
+// 	"primary": $primary,
+// 	"secondary": $secondary,
+// 	"success": $success,
+// 	"info": $info,
+// 	"warning": $warning,
+// 	"danger": $danger,
+// 	"light": $light,
+// 	"dark": $dark
+// );
+
+// Override Bootstrap contrast ratio
+
+$min-contrast-ratio: 1.5;
